@@ -1,0 +1,29 @@
+.productpage__container{
+    padding: 2em;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.productpage__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.col{
+    width: 100%;
+    padding: 2em;
+}
+
+
+@media(max-width:920px){
+    .productpage__info{
+        flex-wrap: wrap;
+    }
+
+    .col{
+        padding: 0;
+    }
+    
+}

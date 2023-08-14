@@ -1,0 +1,25 @@
+.filter__category{
+    width: 100%;
+}
+
+.filter__category__list{
+    padding: 0.8em 0;
+    margin-left: 0.5em;
+}
+
+.filter__category__item{
+    margin-bottom: 0.8em;
+    color: #999;
+    cursor: pointer;
+    transition: color 500ms ease;
+}
+
+.filter__category__item:hover{
+    color: #000000c7;
+}
+
+.filter__category__title{
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    color: #515151;
+}

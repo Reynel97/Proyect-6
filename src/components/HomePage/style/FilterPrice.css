@@ -1,0 +1,52 @@
+.filter__price{
+    width: 100%;
+}
+
+.filter__price__title{
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    color: #515151;
+}
+
+.filter__price__form{
+    width: 100%;
+}
+
+.filter__price__input{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.filter__price__label{
+    width: 20%;
+    color: #999;
+    font-weight: 400;
+    margin-left: 0.5em;
+}
+
+.filter__price__input input{
+    width: 80%;
+    padding: 0.5em 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+}
+
+.filter__price__btn{
+    padding: 1em 1.3em;
+    border-radius: 0.5em;
+    margin-top: 1em;
+    margin-left: 11em;
+    background-color: #3b48ff;
+    border: 0.1em solid  #3b48ff;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+    transition: all 500ms ease;
+}
+
+.filter__price__btn:hover{
+    background-color: transparent;
+    color: #3b48ff;
+}

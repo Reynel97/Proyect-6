@@ -1,0 +1,119 @@
+.home__container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2em;
+}
+
+.main__contain{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    padding: 1em;
+}
+
+.main__contain input{
+    max-width: 840px;
+    width: 100%;
+    padding: 0.8em 1em;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 0.6em;
+    color: #747474;
+}
+
+.main__contain input::placeholder{
+    color: #ccc;
+}
+
+.contain__card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    width: 100%;
+}
+
+.home__aside{
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+    width: 100%;
+    gap: 2em;
+    padding: 1em;
+}
+
+.fixed{
+    position:fixed;
+}
+
+.home__error{
+    width: 100%;
+    max-width: 600px;
+    padding: 1em;
+    text-align: center;
+    border: 1px solid red;
+    background-color: #e71414a6;
+    border-radius: 0.5em;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 13em;
+}
+
+@media(max-width:620px){
+    .home__aside{
+        position: fixed;
+        left: -100%;
+        max-width: 280px;
+        width: 100%;
+        z-index: 1;
+        background-color: #fff;
+        height: 100%;
+        box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+        transition: 0.8s ease
+    }
+
+    .home__container{
+        padding: 0
+    }
+
+    .show--aside{
+        left: 0%;
+        transition: 0.8s ease;
+    }
+
+    .home__filter{
+        text-align: right;
+        color: #747474;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .home__filter .filter__label{
+        font-size: 0.9em;
+        margin-right: 0.5em;
+    }
+
+    .main__contain input{
+        margin-bottom: 0;
+    }
+
+    .bx-x{
+        display: flex;
+        justify-content: flex-end;
+        font-size: 1.5em;
+    }
+}
+
+@media(min-width:620px){
+    .show--filter{
+        display: none;
+    }
+}

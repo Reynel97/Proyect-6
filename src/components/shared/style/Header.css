@@ -18,8 +18,8 @@
 }
 
 .header__logo{
-    color: #747474;
-    transition: transform 500ms ;
+    color: #cb1313;
+    font-size: 1.8rem;
 }
 
 .header__logo:hover{
@@ -34,7 +34,7 @@
 
 .header__link{
     color: #515151;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .btn-singout{
